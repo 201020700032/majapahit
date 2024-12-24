@@ -1,13 +1,3 @@
-# Mengatur headers untuk halaman dinamis (URL utama yang perlu diindeks)
-https://myproject.pages.dev/*
+# Mengatur headers untuk halaman dinamis (URL utama yang perlu diindeks)*
   X-Robots-Tag: index, follow
 
-# Mengatur headers untuk direktori statis atau file statis yang tidak perlu diindeks
-/static/*
-  X-Robots-Tag: noindex, nofollow
-
-# Aturan lainnya bisa ditambahkan untuk keamanan atau privasi halaman tertentu
-/secure/page
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
